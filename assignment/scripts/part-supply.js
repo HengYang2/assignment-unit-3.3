@@ -67,7 +67,7 @@ for (const item of supplyChanges) {
 console.log('8. Total supplies available is:');
 let totalParts = 0;
 for (const item of supplyChanges) {
-    totalParts += item
+    totalParts += item;
 }
 console.log(totalParts);
 
